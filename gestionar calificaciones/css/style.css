@@ -1,0 +1,87 @@
+@font-face{
+    font-family: sans-serif;
+    src:URL(font/GothamNarrow-Bold.otf);
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    height: 100%;
+}
+
+/* MenuLateral */
+.menuLateral{
+    background:#EACBFB;
+    height: 100%;
+    width: 30%;
+    padding: 100px;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+/* Contenido */
+.contenido{
+   
+    background-color:#F2F2F2;
+    height: 100%;
+    width: 70%;
+    
+}
+img{
+    width: 150px;
+    margin-top:30px;
+    text-align: center;
+    
+}
+.tituloLateral{
+    /* display:flex; */
+    flex-direction:column;
+    
+}
+.tituloLateral p{
+    display: flex;
+    margin-bottom:30px;
+    width:150px;
+    text-align: center;  
+}
+.tituloContenido{
+    background-color:#58FAD0;
+    display:flex;
+    justify-content: center;
+    padding-top:50px;
+    margin:50px;
+}
+.informacionPersonal{
+    padding-top: 20px;
+}
+ul{
+    display:flex;
+    height:100%;
+
+    
+}
+.asignaturas{
+    
+    margin:20px;
+    height: 100%; 
+   
+    
+}
+.casillaNota{
+    display:flex;
+    margin-top:50px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 25rem;
+
+    
+}
+
+

@@ -1,0 +1,168 @@
+@font-face{
+    font-family: sans-serif;
+    src:URL(font/GothamNarrow-Bold.otf);
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+    
+html{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body{
+    display:flex;
+    display:grid;
+    height:100vh;
+    grid-template-columns: calc(100% / 2) calc(100% / 2);
+    grid-template-rows: 95% 5%;
+    grid-template-areas:"#left-container #right-container" 
+
+                        "    footer          footer      ";
+}
+
+#left-container{
+    
+    background-color: #0097ee;
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 60% 20%;
+    
+}
+#left-text{
+    display:grid;
+    padding-left:20px;
+    
+    grid-column:2/3;
+    grid-row:2/3;
+    color:white;
+    
+    
+}
+#right-container{
+
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 10% 5% 35% 30% 20%;
+
+}
+#right-top-container{
+    justify-self:center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+#topBton{
+    margin: 10px;
+    border-radius:30px;
+    border-color:#0097ee;
+    border-style: solid;
+    border-width: thin;
+    background-color: white;
+    height: 50px;
+    color: #0097ee;
+}
+#forgotten{
+
+    grid-column: 2/3;
+    grid-row: 2/3
+}
+#right-medium-container{
+    align-self:flex-end;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#right-bottom-container{
+    display:flex;
+    flex-direction:column;
+    grid-column: 2/3;
+    grid-row:4/5;
+}
+#logo{
+    width:60px;
+}
+#regLink{
+    color:white;
+
+}
+#logInLink{
+    color:#0097ee;
+    font-size:20;
+}
+#regBtn{
+
+    margin: 10px;
+    border-radius:30px;
+    border-color:#0097ee;
+    border-style: solid;
+    border-width: thin;
+    background-color: #0097ee ;
+    height: 50px;
+    color:white;
+}
+#logInBtn{
+
+    margin: 10px;
+    border-radius:30px;
+    border-color:#0097ee;
+    border-style: solid;
+    border-width: thin;
+    background-color: white;
+    height: 50px;
+    color: #0097ee;
+}
+
+/*body{
+    display:flex;
+    height:100vh;
+    width:100%;
+}
+
+/* contenedor del bloque izquierdo de la pagina */
+/*#left-container{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:50%;
+    background-color:#00acee; 
+    align-content:left-start;
+    justify-content: center;
+   
+/*}  
+.left-text{
+    display:flex;
+    padding-left:30%;
+    
+ 
+}
+/* contenedor del bloque derecho de la pagina */
+/*#right-container{
+    display:flex;
+    height:100%;
+    width:50%;
+    flex-direction:column;
+    
+}
+/* contenedor del menu de loging superior */
+/*#right-top-container{
+    display:flex;
+    flex-direction:row;
+    
+/*}
+.top-menu{
+    display:flex;
+    align-self: auto;
+}
+#right-medium-container{
+    
+    
+}
+#logo{
+    max-width:70px;
+ 
+}*/
+
+
+
+

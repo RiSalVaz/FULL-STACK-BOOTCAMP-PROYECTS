@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    display:flex;
+    height: 100vh;
+    background-color:#E6E3E6;
+}
+span{
+    Font-family: 'Roboto', sans-serif;
+    color:#E6E3E6;
+}
+.cuerpo{
+    display:flex;
+    margin-top: 50px;
+    margin-left:125px;
+    width: 80%;
+    height: 80%;
+    
+    border-radius:15%;
+}
+.padIzquierdo{
+    width: 20%;
+}
+.stickPadIzquierdo{
+    display:flex;
+    height: 33.3333333%;
+    border-top-left-radius: 50%;
+    background-color: #02BDE4;
+    justify-content: center;
+    align-items: flex-end;
+}
+.stickIzquierdo{
+    
+    background-color:#1D2024;
+    height:70px;
+    width:70px;
+    border-radius:50%;
+    box-shadow: 10px 10px 30px grey ;
+}
+.botonesIzquierdo{
+    display:flex;
+    height: 33.333333%;
+    background-color:#02BDE4;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;  
+}
+.startPad{
+    display:flex;
+    height: 33.33333%;
+    border-bottom-left-radius: 50%;
+    background-color: #02BDE4;
+    justify-content: flex-end;
+   
+}
+.startBoton{
+    background-color:#1D2024;
+    height:30px;
+    width:30px;
+    margin-right:20px;
+    box-shadow: 10px 10px 30px grey ;
+   
+}
+.pantalla{
+    display:flex;
+    background-color:#1D272C;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 20px grey ;
+}
+.marco{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#000000;
+    width: 95%;
+    height:95%;
+    box-shadow: 10px 10px 20px grey ;
+}
+.viewPort{
+    
+    background-color: #1D1E22;
+    width: 85%;
+    height:85%;
+    
+}
+.video{
+    width: 100%;
+    height:100%; 
+    
+}
+.padDerecho{
+    width: 20%;
+}
+
+.stickPadDerecho{
+    
+    display:flex;
+    background-color:#FF6052;
+    height: 33.3333333%;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+.stickDerecho{
+    
+    background-color:#1D2024;
+    height:70px;
+    width:70px;
+    border-radius:50%;
+    box-shadow: 10px 10px 30px grey ;
+}
+.botonesDerecho{
+    display:flex;
+    flex-direction:column;
+    border-top-right-radius: 50%;
+    height: 33.333333%;
+    background-color:#FF6052;
+    align-items: center;
+    justify-content: flex-end;  
+   
+}
+.botonTop{
+    display:flex;
+    background-color:#1D2024;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.botonesMedio{
+    
+    width:100%;
+    display:flex; 
+    align-items: center;  
+    justify-content: center;
+} 
+.botonIzquierdo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#1D2024;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    box-shadow: 10px 10px 30px grey ;
+    
+}
+.botonDerecho{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#1D2024;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    margin-left:20px; 
+    box-shadow: 10px 10px 30px grey ;
+}
+.botonBajo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    background-color:#1D2024;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    box-shadow: 10px 10px 30px grey ;
+    
+}
+.selectPad{
+    height: 33.33333%;
+    border-bottom-right-radius: 50%;
+    background-color:#FF6052;
+    
+}
+.selectBoton{
+    background-color:#1D2024;
+    height:30px;
+    width:30px;
+    margin-left:20px;
+    border-radius:50%;
+    box-shadow: 10px 10px 30px grey ;
+}
