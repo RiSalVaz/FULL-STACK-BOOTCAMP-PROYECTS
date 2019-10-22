@@ -4,11 +4,12 @@ do{
     do{
       opcion=prompt("Que gestion deseas hacer? \n 1: Introducir datos de alumno \n 2: Visualizar datos de alumno.\n 3: Salir");
     
-    }while(opcion !=1 && opcion!=2 && opcion!=3);
+    }while(opcion !=='1' && opcion!=='2' && opcion!=='3');
   
 
     switch(opcion){
         case '1': 
+            window.open("html/introducirDatos.html");
             alumno.introducirDatos();
             break;
         case '2': 

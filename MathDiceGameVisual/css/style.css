@@ -1,0 +1,85 @@
+
+    @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+ *{
+        font-family: 'Luckiest Guy', cursive;
+ }
+ body{
+     height:100vh;
+     width:100%;
+     display:flex;
+     flex-direction:column;
+     background-color: #9EF8F8;
+ }
+#encabezado{
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+    background-color: #9EF8F8;
+    height:25%;
+}
+#dadoTitulo{
+    width:100px;
+    height:100px;
+}
+.titulo{
+    font-size: 100px;
+   
+}
+#tirada{
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+    height:40%;
+
+}
+.dados{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    height:100%;
+    width:20%;
+    
+   
+}
+.dadosColores{
+    width:150px;
+    height:150px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    border: black 10px solid;
+    border-radius:20%;
+  
+}
+.resultadoDado{
+    padding-left:40px;
+}
+#objetivo{
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+    height:25%;
+  
+}
+#entradaDatos{
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+    height:35%;
+}
+#botonJugar{
+    height:100px;
+    width: 200x;
+    font-size: 40px;
+    outline:none;
+    
+}
+
+#valorDadoObjetivo{
+    font-size:30px;
+    padding-left:10px;
+}

@@ -23,18 +23,17 @@
         <div class="informacionPersonal">
             <div class="informacion">
                 <p>Nombre:</p>
-                <div class="textBox" name="nombre" id="nombre"></div>
+                <input type="text" name="nombre" id="dameNombre">
             </div>
             <div class= "informacion">
                 <p>Apellidos:</p>
-                <div class="textBox" name="apellidos" id="apellidos"></div>
+                <input type="text" name="apellidos" id="dameApellidos">
             </div>
             <div class="informacion">
                 <p>Curso:</p>
-                <div class="textBox" name="curso" id="curso"></div>
+                <input type="text" name="apellidos" id="dameCurso">
             </div>
-            <button class="guardarDatosDesactivado" type="button">Guardar datos</button>
-           
+            <button class="guardarDatos" type="button">Guardar datos</button>
         </div>
    </div>
     <div class="contenido">
@@ -52,33 +51,34 @@
             </div>
             <div class="inputs">
                 <div class="contendorInputs">
-                    <div class="verNota" id="nota1"></div>
+                    <input class="casillaNota" id="dameNota1"  placeholder="nota">
                 </div>
                 <div class="contendorInputs">
-                    <div class="verNota" id="nota2"></div>
+                    <input class="casillaNota" id="dameNota2" placeholder="nota">
                 </div>
                 <div class="contendorInputs">
-                    <div class="verNota" id="nota3"></div>
+                    <input class="casillaNota" id="dameNota3" placeholder="nota">
                 </div>
                 <div class="contendorInputs">
-                    <div class="verNota" id="nota4"></div>
+                    <input class="casillaNota" id="dameNota4" placeholder="nota">
                 </div>
                 <div class="contendorInputs">
-                    <div class="verNota" id="nota5"></div>
+                    <input class="casillaNota" id="dameNota5" placeholder="nota">
                 </div>
                 <div class="contendorInputs">
-                    <div class="verNota" id="nota6"></div>
+                    <input class="casillaNota" id="dameNota6" placeholder="nota">
                 </div>
             </div>
         </div>
         <div class="inputObservaciones">
-                <div id="verObservaciones" class="cajaObservaciones" type="text"></div>
+                <input id="dameObservaciones" class="observaciones" type="text" placeholder="Observaciones" >
         </div>
     </div>
             
         
         <script src="js/alumno.js"></script>
-        <script src="js/app.js"></script>         
+        <script src="js/gestiones.js"></script>
+        <!-- <script src="js/app.js"></script>         -->
         
 </body>
 </html>

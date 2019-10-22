@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="encabezado">
+        <span class="titulo">Math</span>
+        <img id="dadoTitulo" src="dados/dadoTitulo.png" alt="dado del titulo">
+        <span class="titulo">Dice</span>
+    </div>
+    <div id="tirada">
+        <div class="dados">
+            <img class="dadosColores" id="dado1" src="dados/13.png" alt="dado rojo">
+            <p id="valor1" class="resultadoDado"></p>
+        </div>
+        <div class="dados">
+            <img class="dadosColores" id="dado2"  src="dados/21.png" alt="dado azul">
+            <p id="valor2" class="resultadoDado"></p>
+        </div>
+        <div class="dados">
+            <img class="dadosColores" id="dado3"  src="dados/32.png" alt="dado verde">
+            <p id="valor3" class="resultadoDado"></p>
+        </div>
+        <div class="dados">
+            <img class="dadosColores" id="dado4"  src="dados/46.png" alt="dado amarillo">
+            <p id="valor4" class="resultadoDado"></p>
+        </div>
+        <div class="dados">
+            <img class="dadosColores" id="dado5"  src="dados/55.png" alt="dado morado">
+            <p id="valor5" class="resultadoDado"></p>
+        </div>
+        <div class="dados">
+            <img class="dadosColores" id="dadoObjetivo" src="dados/dadoBlanco7.png" alt="dado objetivo">
+            <p id="valorDadoObjetivo"></p>
+        </div>
+
+    </div>
+    <div id="entradaDatos">
+        <button id="botonJugar" onclick="jugada()">Tirar dados</button>
+    </div>
+
+    <script src="js/pedirNumeros.js"></script>
+    <!-- <script src="js/resultadoJuego.js"></script> -->
+   
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+
+

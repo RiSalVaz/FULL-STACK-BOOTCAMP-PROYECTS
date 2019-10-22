@@ -1,0 +1,10 @@
+
+1.robin. lanza dados-console -> console.(dados.js, app.js).
+
+2.batman.  lanza dados-visual -> DOM (js, html).
+
+3.spiderman.  Math dice (combinando las dos anteriores).
+
+4.hulk |mathdice + jugador maquina.
+       |
+       |cube + habitaciones infinitas.

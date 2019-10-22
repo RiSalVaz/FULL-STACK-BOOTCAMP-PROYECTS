@@ -1,87 +1,165 @@
-@font-face{
-    font-family: sans-serif;
-    src:URL(font/GothamNarrow-Bold.otf);
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 *{
-    margin:0;
-    padding: 0;
-    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    color: honeydew;
 }
-
+input{
+    color: black;
+}
+button{
+    color:black;
+}
 body{
-    display: flex;
-    height: 100%;
+    display:flex;
+    height:100vh;
 }
 
-/* MenuLateral */
 .menuLateral{
-    background:#EACBFB;
-    height: 100%;
+    display:flex;
+    height:100%;
     width: 30%;
-    padding: 100px;
-}
-
-input::placeholder{
-    text-align: center;
-}
-
-/* Contenido */
-.contenido{
-   
-    background-color:#F2F2F2;
-    height: 100%;
-    width: 70%;
-    
-}
-img{
-    width: 150px;
-    margin-top:30px;
-    text-align: center;
-    
+    flex-direction: column;
+    background-color:#8E44AD;
 }
 .tituloLateral{
-    /* display:flex; */
+    display:flex;
+    width:100;
+    height:20%;
+    align-items: center;
+    justify-content: center;
+   
+}
+.contenedorLateral{
+    display:flex;
+    height:70%x;
+    width:70%px;
+    margin:20px;
+    font-size: x-large;
+}
+
+.fotoContenedor{
+    display:flex;
+    height:30%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fotoFrame{
+    margin-top:20px;
+    display:flex;
+    height: 70%;
+    width: 40%;
+}
+.informacionPersonal{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.guardarDatos{
+    margin:25px;
+}
+.contenido{
+    display:flex;
+    height:100%;
+    width:70%;
+    flex-direction:column;
+    background-color: #A569BD;
+}
+.tituloContenido{
+    display:flex;
+    width: 100%;
+    height:20%;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+   
+}
+.notasAlumno{
+    display:flex;
+    height:50%;
+    width:100%;
     flex-direction:column;
     
 }
-.tituloLateral p{
-    display: flex;
-    margin-bottom:30px;
-    width:150px;
-    text-align: center;  
-}
-.tituloContenido{
-    background-color:#58FAD0;
+.asignaturas{
     display:flex;
-    justify-content: center;
-    padding-top:50px;
-    margin:50px;
+    height:40%;
+    width:100%;
+   
 }
-.informacionPersonal{
-    padding-top: 20px;
-}
-ul{
+.nombreAsignatura{
     display:flex;
     height:100%;
-
-    
-}
-.asignaturas{
-    
-    margin:20px;
-    height: 100%; 
+    width: 16.6%;
+    align-items: center;
+    justify-content: center;
    
+}
+.inputs{
+    display:flex;
+    height:60%;
+    width:100%;
+   
+}
+.contendorInputs{
+    display:flex;
+    height:100;
+    width:16.6%;
+    align-items: flex-start;
+    justify-content: center;
     
+   
 }
 .casillaNota{
     display:flex;
-    margin-top:50px;
-    width: 70px;
-    height: 70px;
-    text-align: center;
-    border-radius: 25rem;
-
+    height:50px;
+    width: 50px;
+    font-size: x-large; 
     
 }
+.inputObservaciones{
+    display:flex;
+    height:30%;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+}
+.observaciones{
+    height: 80%;
+    width: 90%;
+ 
+}
+.verNota{
+    display:flex;
+    height:60px;
+    width: 60px;
+    font-size: x-large; 
+    border-radius: 50%;
+    background-color: white;
+    color: black;
 
+}
+.cajaObservaciones{
+    background-color: white;
+    color: black;  
+    height: 80%;
+    width: 90%;
+}
+.textBox{
+    background-color: white;
+    color: black;  
+    height:20px;
+    width:165px;
+}
+.guardarDatosDesactivado{
+    color:transparent;
+    margin:25px;
+}
 
