@@ -1,16 +1,20 @@
 let juego={
-    player1={personaje1: "", personaje2: "", personaje3: ""},
+    player1:{personaje1: "", personaje2: "", personaje3: ""},
 
-    player2= {personaje1: "", personaje2: "", personaje3: ""},
+    player2: {personaje1: "", personaje2: "", personaje3: ""},
     
 
     seleccionarPersonajes(){
-
+        console.log("ENTRA AQUI");
+        let pantalla;
+        document.getElementById('pantalla').style.backgroundImage = "url(../imagenes/seleccionar.jpg);";
+        pantalla= document.getElementById('pantalla').style;
+        console.log(pantalla);
     },
 
-    seleccionarEscenario(){
+    // seleccionarEscenario(){
 
-    },
+    // },
 
     jugar(){
         let turno;

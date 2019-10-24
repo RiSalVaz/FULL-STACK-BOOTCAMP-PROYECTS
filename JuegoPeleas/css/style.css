@@ -1,4 +1,4 @@
-body{
+#pantalla{
     height:100vh;
     width: 100%;
     background-image:    url(../imagenes/fondo1.jpg);
@@ -28,8 +28,8 @@ body{
 #personaje12{
     grid-column:1/2;
     grid-row: 1/1;
-    height:100px;
-    width:100px;
+    height:150px;
+    width:150px;
 }
 #botonJugar{
     height:50px;
@@ -40,8 +40,8 @@ body{
 #personaje22{
     grid-column:3/4;
     grid-row:1/1;
-    height:100px;
-    width:100px;
+    height:150px;
+    width:150px;
 
 }
 #seccion3{
@@ -64,8 +64,8 @@ body{
 #personaje11{
     grid-column:2/3 ;
     grid-row:1/2;
-    height:100px;
-    width:100px;
+    height:150px;
+    width:150px;
 }
 #botonComenzarJugar{
     grid-column:3/4;
@@ -76,8 +76,8 @@ body{
 #personaje21{
     grid-column:4/5 ;
     grid-row:1/2;
-    height:100px;
-    width:100px;
+    height:150px;
+    width:150px;
 }
 #seccion4{
     display:grid;
@@ -91,8 +91,8 @@ body{
 #personaje13{
     grid-column:1/2;
     grid-row:1/2;
-    height:100px;
-    width:100px;
+    height:150px;
+    width:150px;
 }
 #seleccionPersonajes{
     grid-column:2/3;
@@ -102,8 +102,8 @@ body{
 #personaje23{
     grid-column:3/4;
     grid-row:1/2;
-    height:100px;
-    width:100px;
+    height:150px;
+    width:150px;
 }
 
 
