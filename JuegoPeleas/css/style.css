@@ -1,21 +1,39 @@
-#pantalla{
+
+
+body{
     height:100vh;
     width: 100%;
-    background-image:    url(../imagenes/fondo1.jpg);
+    background-image:    url(../imagenes/pantalla1.jpg); 
     background-size:     cover;                     
     background-repeat:   no-repeat;
     background-position: center center;  
     background-attachment: fixed; 
     display:flex;     
-    flex-direction:column;      
+    flex-direction:column;       
 }
+
 
 #seccion1{
     display:flex;
-    height:10%;
+    height:15%;
     width:100%; 
+    justify-content: center;
+   
 }
-
+.barrasVida{
+    display:flex;
+    height:20px;
+    width: 400px;
+    background-color:red;
+    margin:20px;
+}
+.boxTurno{
+    display:flex;
+    height:50px;
+    width: 50px;
+    background-color:white;
+    margin:20px;
+}
 #seccion2{
     display:grid;
     grid-template-columns: 33.33% 33.33% 33.33% ;
@@ -25,25 +43,25 @@
     align-items: flex-end;
     justify-items: center;
 }
-#personaje12{
+/* #personaje12{
     grid-column:1/2;
     grid-row: 1/1;
     height:150px;
     width:150px;
-}
+} */
 #botonJugar{
     height:50px;
     width:100px;
     grid-column:2/3;
     grid-row:1/1;
 }
-#personaje22{
+/* #personaje2{
     grid-column:3/4;
     grid-row:1/1;
     height:150px;
     width:150px;
 
-}
+} */
 #seccion3{
     display:grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
@@ -61,10 +79,10 @@
     grid-column:5/6;
     grid-row:1/2;
 }
-#personaje11{
+#personaje1{
     grid-column:2/3 ;
     grid-row:1/2;
-    height:150px;
+    height:200px;
     width:150px;
 }
 #botonComenzarJugar{
@@ -73,38 +91,96 @@
     height:50px;
     width:100px;
 }
-#personaje21{
+#personaje2{
     grid-column:4/5 ;
     grid-row:1/2;
-    height:150px;
+    height:200px;
     width:150px;
 }
 #seccion4{
     display:grid;
-    height:40%;
+    height:35%;
     width:100%; 
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 100%;
     align-items: flex-end;
     justify-items: center;
 }
-#personaje13{
-    grid-column:1/2;
-    grid-row:1/2;
-    height:150px;
-    width:150px;
-}
+
 #seleccionPersonajes{
+    display:grid;
     grid-column:2/3;
     grid-row:1/2;
+    height:100%;
+    width:100%;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+#boton1{
+    grid-row: 1/2;
+    grid-column: 1/2;   
+    height:100%;
+    width:90%;
+}
+#boton2{
+    grid-row: 2/3;
+    grid-column: 2/3;  
+    height:100%;
+    width:90%; 
+}
+#boton3{
+    grid-row: 1/2;
+    grid-column: 3/4;  
+    width:90%;
+    height:100%;
+
+}
+#boton4{
+    grid-row: 2/3;
+    grid-column: 4/5; 
+    height:100%;
+    width:90%; 
+
+}
+#boton5{
+    height:100%;
+    width:90%;
+    grid-row: 1/2;
+    grid-column: 5/6;   
+}
+#boton6{
+    grid-row: 2/3;
+    grid-column: 1/2;  
+    height:100%;
+    width:90%;  
+}
+#boton7{
+    grid-row: 1/2;
+    grid-column: 2/3; 
+    height:100%;
+    width:90%;   
+}
+#boton8{
+    grid-row: 2/3;
+    grid-column: 3/4;  
+    height:100%;
+    width:90%;  
+}
+#boton9{
+    grid-row: 1/2;
+    grid-column: 4/5; 
+    height:100%;
+    width:90%;   
+}
+#boton10{
+    grid-row: 2/3;
+    grid-column: 5/6; 
+    height:100%;
+    width:90%;   
 }
 
-#personaje23{
-    grid-column:3/4;
-    grid-row:1/2;
-    height:150px;
-    width:150px;
-}
+
+
 
 
 
