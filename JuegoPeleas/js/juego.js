@@ -150,7 +150,8 @@ let juego={
     
 
 
-    pantallaCombate(){
+    batalla(){
+       
         console.log(this.player1.length);
         console.log(this.player2.length);
         if(this.player1.length < 3 && this.player2.length < 3){
@@ -162,7 +163,7 @@ let juego={
         let contador1=0;
         let contador2=0;
         let tiempoAtaque=5000;
-        //console.log(this.contrincantes);
+       
         do{
             
             console.log(`vida de player1: ${this.player1[0].vida} ------------------- vida de player2: ${this.player2[0].vida}`)
