@@ -117,6 +117,7 @@ body{
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
 #boton1{
+    display:flex;
     grid-row: 1/2;
     grid-column: 1/2;   
     height:100%;

@@ -5,16 +5,19 @@ class personaje{
     constructor(name, damage, defense, armor){
         this.nombre = name;
         this.vida = 100;
-        this.daño = damage;
+        this.danho = damage;
         this.defensa = defense;
         this.armadura = armor;
     }
     atacar(enemigo){
-        daño = this.daño-(enemigo.armadura + enemigo.defensa);
-        if (daño < 0){
-            daño = 0;
+        console.log("daño es: "+this.danho);
+        console.log("armadura enemigos es: "+enemigo.armadura);
+        console.log("defensa enemigo es: "+enemigo.defensa);
+        let pupa = this.danho-(enemigo.armadura + enemigo.defensa);
+        if (pupa < 0){
+            pupa = 0;
         }
-        return enemigo.vida-daño;
+        return enemigo.vida-pupa
     }
 }
 
