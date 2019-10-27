@@ -8,29 +8,45 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="seccion1" class="item3">
+        <span id="vidaPersonaje1" class="barrasVida"></span>
+        <span id="turno1" class="boxTurno">P1</span>
+        <span id="turno2" class="boxTurno">P2</span>
+        <span id="vidaPersonaje2" class="barrasVida"></span>
+    </div>
+    <div id="seccion2" class="contenido1">  
+        <button id="botonJugar" onclick="pantallaSeleccion()" class="items1">JUGAR</button>  
+        
+    </div>
+    <div id="seccion3" class="contenido2">
+        <span id="dañoPlayer1" class=item3></span>
+        <img src=""  id="personaje1" class="item3" alt="personaje1"> 
+        <button id="botonStart" onclick="juego.jugar()" class="items1">START FIGHT</button>   
+        <img src=""  id="personaje2" class="item3" alt="personaje2">
+        <span id="dañoPlayer2" class="item3"></span>
+    </div>
+    <div id="seccion4">
+            
+            <div id="seleccionPersonajes">
+                <img src="imagenes/1.png" onclick="juego.crearEquipos(this.className)" id="boton1" class="johnnyCage">
+                <img src="imagenes/2.png" onclick="juego.crearEquipos(this.className)" id="boton2" class="scorpion">
+                <img src="imagenes/3.png" onclick="juego.crearEquipos(this.className)" id="boton3" class="liuKang">
+                <img src="imagenes/4.png" onclick="juego.crearEquipos(this.className)" id="boton4" class="kitana">
+                <img src="imagenes/5.png" onclick="juego.crearEquipos(this.className)" id="boton5" class="raiden">
+                <img src="imagenes/6.png" onclick="juego.crearEquipos(this.className)" id="boton6" class="baraka"> 
+                <img src="imagenes/7.png" onclick="juego.crearEquipos(this.className)" id="boton7" class="shangTsung">
+                <img src="imagenes/8.png" onclick="juego.crearEquipos(this.className)" id="boton8" class="kano">
+                <img src="imagenes/9.png" onclick="juego.crearEquipos(this.className)" id="boton9" class="reptile">
+                <img src="imagenes/10.png" onclick="juego.crearEquipos(this.className)" id="boton10" class="sonyaBlade">
+            </div>
+            <button id="botonComenzarJugar" onclick="pantallaCombate()" class="item2">COMENZAR A JUGAR</button>
+            
+            
+    </div>
     
-    <div class="cabecera">
-        <span id="vidaPersonaje11" class="barrasVida"></span>
-        <span id="vidaPersonaje12" class="barrasVida"></span>
-        <span id="vidaPersonaje13" class="barrasVida"></span>
-        <span id="turno1" class="boxTurno"></span>
-        <span id="turno2" class="boxTurno"></span>
-        <span id="vidaPersonaje21" class="barrasVida"></span>
-        <span id="vidaPersonaje22" class="barrasVida"></span>
-        <span id="vidaPersonaje23" class="barrasVida"></span>
-    </div>
-    <div class="contenido1">
-        <img src="" id="personaje12" class="item3" alt="personaje11">
-        <button id="botonJugar" class="items1">JUGAR</button>
-        <img src="" id="personaje22" class="item3" alt="personaje21">
-    </div>
-    <div class="contenido2">
-        <span id="dañoPlayer1"></span>
-    </div>
-    <div class="contenido3">
-    </div>
-    
-    <script src="js/jugador"></script>
+
+    <script src="js/personaje.js"></script>
     <script src="js/juego.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
