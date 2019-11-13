@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "email": "riqui@geekshubs.com",
+      "password": "12345"
+    },
+    {
+      "email": "juan@geekshubs.com",
+      "password": "12345",
+      "token": "2223e7f1-94d2-41c4-9478-e5754785aaf2"
+    },
+    {
+      "email": "azael@geekshubs.com",
+      "password": "12345"
+    },
+    {
+      "email": "rodri@geekshubs.com",
+      "password": "12345678"
+    }
+  ]
+}

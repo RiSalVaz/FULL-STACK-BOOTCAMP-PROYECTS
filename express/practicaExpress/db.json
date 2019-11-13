@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "nombre": "antonio",
+      "apellidos": "salas"
+    },
+    {
+      "nombre": "juan",
+      "apellidos": "salas"
+    },
+    {
+      "nombre": "pepe",
+      "apellidos": "perez"
+    },
+    {
+      "nombre": "mariano",
+      "apellidos": "perez"
+    },
+    {
+      "nombre": "miguel",
+      "apellidos": "perez"
+    },
+    {
+      "nombre": "ana",
+      "apellidos": "gomez"
+    }
+  ]
+}

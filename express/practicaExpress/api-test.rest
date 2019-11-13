@@ -1,0 +1,15 @@
+###
+
+GET  http://localhost:3000/first
+
+
+###
+
+POST http://localhost:3000/first
+Content-Type:application/json
+
+{
+    "nombre": "miguel",
+    "apellidos": "perez"
+}
+
