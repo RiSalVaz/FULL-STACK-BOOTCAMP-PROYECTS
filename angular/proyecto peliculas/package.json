@@ -1,0 +1,16 @@
+{
+  "name": "proyecto-peliculas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:back": "cd backEndPeliculas && npm start",
+    "start:front": "cd frontEndPeliculas && npm start",
+    "start": "concurrently \"npm run start:back \" \"npm run start:front\" ",
+    "postinstall": "concurrently \"npm run install:back \" \"npm run instal:front\" "
+
+  },
+  "author": "",
+  "license": "ISC"
+}

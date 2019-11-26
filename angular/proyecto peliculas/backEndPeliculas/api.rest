@@ -1,0 +1,26 @@
+###
+
+GET http://localhost:3000/user
+
+
+###
+
+POST http://localhost:3000/user/register
+Content-Type: application/json
+
+{
+    "username": "benito",
+    "password": "123"
+}
+
+###
+
+PATCH  http://localhost:3000/user/5dcbf19457a56a29241306d5
+Content-Type: application/json
+
+{   
+    "username": "juan"
+}
+
+
+

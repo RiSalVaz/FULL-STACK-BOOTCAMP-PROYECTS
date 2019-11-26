@@ -1,0 +1,36 @@
+1º SELECT `title` FROM `film` 
+
+2º SELECT `title`,`release_year` FROM `film` 
+
+3º SELECT * FROM `film` 
+
+4º SELECT 
+	`title`
+   ROM 
+	`film` 
+   WHERE 
+	(`length`BETWEEN 100 AND 120) 
+	OR 
+	(`length`BETWEEN 50 AND 70)
+
+
+5º SELECT *
+   FROM
+	`address`
+   WHERE (`district` = 'ontario')
+   AND
+    	(`postal_code` LIKE '%5' OR`phone` LIKE '%5')
+   OR
+	(`district` = 'punjab')
+   AND
+	(`postal_code` LIKE '%5' OR`phone` LIKE '%5')
+
+
+6º UPDATE 
+	`actor` 
+   SET 
+	`first_name`='Harpo'
+   WHERE 
+	`first_name`='Groucho'
+   AND
+      `last_name`='Williams'
