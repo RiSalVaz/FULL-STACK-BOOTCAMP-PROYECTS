@@ -1,0 +1,17 @@
+{
+    "idleHeartbeats": 1039,
+    "navigatingHeartbeats": 354,
+    "totalCodingHeartbeats": 2334,
+    "languageHeartbeats": {
+        "javascript": 223,
+        "javascriptreact": 2069,
+        "css": 42
+    },
+    "fileHeartbeats": {
+        "my-app/src/index.js": 114,
+        "my-app/src/containers/App.js": 109,
+        "my-app/src/containers/App.jsx": 1686,
+        "my-app/src/components/Character.jsx": 383,
+        "my-app/src/containers/App.css": 42
+    }
+}
